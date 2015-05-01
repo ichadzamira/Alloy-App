@@ -1,0 +1,14 @@
+<Alloy>
+	<Window title="Dinner" backgroundColor="white">
+		<TextField id="txtsearch" top="100" left="10"  height="20" width="250" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699"></TextField>
+		<Button title="Search" height="20" top="100" right="10" onClick="search"></Button>	
+		<TextField  id ="txtarea" top="250" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" height="150" width="300"></TextField>	
+		
+		
+		
+		
+	</Window>
+	
+	
+	
+</Alloy>
