@@ -1,0 +1,20 @@
+<Alloy>
+	
+		
+			<Window title="Log In" backgroundColor="white">
+			<Label top ="100" left="10">firstname</Label>
+			<TextField id="txtfirst" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="100" right="10" width="170" height="20" />
+            <Label top ="150" left="10">lastname</Label>
+			<TextField id="txtlast" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="150" right="10" width="170" height="20" />
+			<Label top ="200" left="10">email</Label>
+			<TextField id="txtemail" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="200" right="10" width="170" height="20" />
+			<Label top ="250" left="10">Username</Label>
+			<TextField id="txtusername" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="250" right="10" width="170" height="20" />
+			 <Label top ="300" left="10">Password</Label>
+			<TextField  id="txtpass" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="300" right="10" width="170" height="20" passwordMask="true" />
+			 <Label top ="350" left="10">Confirm Pass</Label>
+			<TextField  id="txtpassconfirm" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="350" right="10" width="170" height="20" passwordMask="true" />
+				 <Button id="button"  title="Sign Up" bottom="100" width="100" height="50" onClick="sign_up" />
+           <Button id="button2"  title="Cancel" bottom="100" right="30" width="100" height="50" onclick="cancel"/>
+			  </Window>
+		</Alloy>
