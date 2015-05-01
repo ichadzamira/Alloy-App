@@ -132,7 +132,13 @@ function getDataFromService() {
 
 getDataFromSyncAdapter();
 
-
+function Back(e){
+	
+	var w= Alloy.createController('breakfast').getView();
+	 w.open();
+            $.results.close();
+	
+}
 
 
 

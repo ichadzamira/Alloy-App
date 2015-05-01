@@ -6,9 +6,7 @@
 			<TextField id="txtuser" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="200" right="10" width="200" height="20" />
             <Label top ="250" left="10">Password</Label>
 			<TextField  id="txtpass" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" top="250" right="10" width="200" height="20" passwordMask="true" />
-				 <Button id="button" onClick="login" title="Log In"
-            bottom="100" width="100" height="50" />
-           <Button id="button2" onClick="login" title="Sign Up"
-            bottom="50" width="100" height="50" />
+				 <Button id="button" onClick="login" title="Log In"bottom="100" width="100" height="50" />
+           <Button id="button2" onClick="sign" title="Sign Up" bottom="50" width="100" height="50"  />
 			  </Window>
 		</Alloy>

@@ -1,7 +1,10 @@
 
 <Alloy>
 	<NavigationWindow platform="ios">
-		<Window class="container">
+		<Window title="Results" class="container">
+			<LeftNavButton>
+				<Button title ="Back" onClick="Back"></Button>
+			</LeftNavButton>
 			<!-- listen for click and call the function specified -->
 			<ListView id="listView" onItemclick="listItemClicked" 
 				defaultItemTemplate="listViewTemplate">

@@ -1,14 +1,18 @@
 <Alloy>
+	<NavigationWindow platform="ios">
 	<Window title="Breakfast" backgroundColor="white">
+		<LeftNavButton>
+				<Button title ="Back" onClick="Back"></Button>
+			</LeftNavButton>
 		<TextField id="txtsearch" top="100" left="10"  height="20" width="250" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699"></TextField>
 		<Button title="Search" height="20" top="100" right="10" onClick="search"></Button>	
 		<TextField  id ="txtarea" top="250" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" height="150" width="300"></TextField>	
-		<Button title="Submit" bottom= "200px" textAlign="center" onClick="submit"></Button>
+		<Button title="Submit" bottom= "150px" textAlign="center" onClick="submit"></Button>
 		
 		
 		
 	</Window>
 	
-	
+	</NavigationWindow>
 	
 </Alloy>

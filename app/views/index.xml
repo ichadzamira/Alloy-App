@@ -1,30 +1,19 @@
 
 <Alloy>
-	<TabGroup>	
-		<Tab title="Home" icon="KS_nav_ui.png">
-			<Window>
-		<NavigationGroup id="nav" platform="ios">
-            <Window id="win2" title="Home" backgroundColor="white">
-                <Button title="Back" onClick="openBlueWindow">
-            </Window>
-        </NavigationGroup>
+	
+			
+			<NavigationWindow platform="ios">
+			<Window title="Home">
+	   
 			
 				<TableView>
-        			<TableViewRow title="BreakFast" height="50" onClick="doClick"></TableViewRow>
+        			<TableViewRow title="BreakFast" height="150" onClick="doClick"></TableViewRow>
         			<TableViewRow title="Lunch"  height="150" onClick="doClick2"></TableViewRow>
         			<TableViewRow title="Dinner" height="150" onClick="doClick3"></TableViewRow>
         			
         			</TableView>
 			<Label id="counter" bottom="0px">2400</Label>
 		</Window>
-		</Tab>
-		<Tab title="Profile" icon="KS_nav_ui.png">
-			
-		 <Window>
-		 	<Label id="labuser" top="100"></Label>
-     
-        </Window>
-        </Tab>
-        
-	</TabGroup>
+		</NavigationWindow>
+	
 </Alloy>

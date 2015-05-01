@@ -24,4 +24,11 @@ function submit(evt){
 	 w.open();
             $.breakfast.close();
 }
+function Back(e){
+	
+	var w= Alloy.createController('index').getView();
+	 w.open();
+            $.breakfast.close();
+	
+}
 $.breakfast.open();

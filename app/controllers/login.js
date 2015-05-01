@@ -19,3 +19,13 @@ function login(evt){
     }
 });
 }
+function sign(e){
+	
+	var w= Alloy.createController('sign_up').getView();
+ 
+            w.open();
+            $.login.close();
+	
+	
+	
+}
